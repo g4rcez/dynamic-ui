@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("./tachyons-no-colors.css");
+@import url("./colors.css");
+
+* {
+  transition: all 500ms ease-in-out;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background-color 500ms ease-in-out, color 500ms ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dd,
+dl,
+p,
+span,
+a {
+  color: var(--text);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+body,
+#root {
+  max-width: 100vw;
+  max-height: 100vh;
+  margin: auto;
+}
+
+.nav-link {
+  margin-right: 1rem;
+}
+.nav-link:last-child {
+  margin-right: 0;
+}
